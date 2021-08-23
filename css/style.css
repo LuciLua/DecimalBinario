@@ -15,6 +15,8 @@ main{
     justify-content: center;
     align-items: center;
 
+    flex-direction: column;
+
     width: 100%;
     height: 100vh;
     position: relative;
@@ -25,18 +27,67 @@ main{
     align-items: center;
     flex-direction: column;
 
-    width: 900px;
-    max-width: 95%;
     height: 500px;
 
+    padding: 30px;
+}
+
+.box{
     background-color: rgb(41, 44, 44);
     border-radius: 3px;
 
     position: relative;
 
     font-family: 'Fira Code';
+    
+    width: 900px;
+    max-width: 95%;
+}
+.footer{
+    height: 90px;
 
-    padding: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer a{
+    text-decoration: none;
+    color: rgba(240, 248, 255, 0);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 25px;
+
+    font-size: 12px;
+    transition: 0.3s;
+
+}
+
+.footer a:hover,
+.footer a:hover img{
+    color: rgba(240, 248, 255, 0.296);
+    transition: 0.3s;
+    opacity: 90%;
+}
+
+.footer a img{
+    transition: 0.3s;
+    opacity: 30%;
+    width: 40px;
+    min-width: 40px;
+    max-width: 40px;
+    height: 40px;
+    max-height: 40px;
+    min-height: 40px;
+
+    margin-bottom: 2px;
 }
 
 .container header{
