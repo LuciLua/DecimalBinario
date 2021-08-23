@@ -35,6 +35,8 @@ main{
     position: relative;
 
     font-family: 'Fira Code';
+
+    padding: 30px;
 }
 
 .container header{
@@ -46,15 +48,27 @@ main{
     flex-direction: column;
     justify-content: center;
 
+    text-align: center;
+
     color: aliceblue;
     
     position: relative;
+
+    font-size: 15px;
 }
 
-.container header span:nth-child(1){
+.container header span:nth-child(2){
     color: rgb(184, 77, 112);
 }
-.container header span:nth-child(2){
+.container header span:nth-child(3){
+    color: rgb(77, 164, 184);
+    cursor: pointer;
+}
+.container header span:nth-child(3):hover{
+    color: rgb(45, 101, 114);
+    cursor: pointer;
+}
+.container header span:nth-child(4){
     color: rgb(77, 184, 98);
 }
 
@@ -62,6 +76,8 @@ main{
     width: 90%;
     height: 1px;
     background-color: rgb(61, 65, 65);
+
+    margin: 20px 0 20px 0;
 
     position: relative;
 }
