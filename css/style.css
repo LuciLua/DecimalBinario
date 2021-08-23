@@ -38,7 +38,7 @@ main{
 
     position: relative;
 
-    font-family: 'Fira Code';
+    font-family: 'Fira Code', sans-serif;
     
     width: 900px;
     max-width: 95%;
@@ -163,7 +163,7 @@ main{
     box-shadow: 0 0 19px rgba(184, 77, 113, 0.247);
     color: rgb(184, 77, 112);
 
-    font-family: 'Fira Code';
+    font-family: 'Fira Code', sans-serif;
 
     cursor: pointer;
 
