@@ -22,6 +22,17 @@ main{
     position: relative;
 }
 
+.wrap-container{
+    position: relative;
+    /* background-color: aliceblue; */
+    width: 100%;
+    max-width: 800px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .container{
     display: flex;
     align-items: center;
@@ -32,18 +43,37 @@ main{
     padding: 30px;
 }
 
+.menu{
+    background-color: rgb(41, 44, 44);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.357);
+    border-radius: 6px;
+    
+    position: relative;
+    
+    font-family: 'Fira Code', monospace;
+    
+    width: 100%;
+    height: 100%;
+    max-width: 10%;
+    margin-right: auto;
+}
+
 .box{
     background-color: rgb(41, 44, 44);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.357);
-    border-radius: 20px;
+    border-radius: 6px;
 
     position: relative;
 
     font-family: 'Fira Code', monospace;
     
     width: 900px;
-    max-width: 95%;
+    max-width: 90%;
+    margin-left: auto;
 }
+
+
+
 .foo{
     display: flex;
     position: relative;
