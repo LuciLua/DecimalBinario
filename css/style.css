@@ -56,11 +56,47 @@ main{
     height: 100%;
     max-width: 10%;
     margin-right: auto;
+    overflow: hidden;
+}
+
+.menu ul{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+    justify-content: center;
+}
+
+.menu ul li{
+    width: 85%;
+    height: 70px;
+
+
+    border-bottom: 1px solid rgba(106, 106, 106, 0.501);
+    
+}
+
+.menu ul li:first-child
+{
+    border-top: 1px solid rgba(106, 106, 106, 0.501);
+
+}
+
+
+
+.menu ul li:hover{
+    background-color: rgb(28, 28, 28);
+    cursor: pointer;
 }
 
 .box{
     background-color: rgb(41, 44, 44);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.357);
+    box-shadow: 15px 0 15px rgba(0, 0, 0, 0.357);
     border-radius: 6px;
 
     position: relative;
@@ -68,7 +104,7 @@ main{
     font-family: 'Fira Code', monospace;
     
     width: 900px;
-    max-width: 90%;
+    max-width: 89.8%;
     margin-left: auto;
 }
 
