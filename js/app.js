@@ -28,4 +28,6 @@ function dec(deci){
 
 document.querySelector('.arrow').addEventListener('click', function(){
     document.querySelector('.menu').classList.toggle('active')
+    document.querySelector('.arrow').classList.toggle('active')
 })
+
