@@ -25,3 +25,7 @@ function dec(deci){
         saida.value = binario.join('')
     }
 }
+
+document.querySelector('.arrow').addEventListener('click', function(){
+    document.querySelector('.menu').classList.toggle('active')
+})

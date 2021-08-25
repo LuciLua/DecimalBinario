@@ -43,7 +43,43 @@ main{
     padding: 30px;
 }
 
+.menu.active{
+    display: flex;
+}
+
+.arrow{
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+
+    background-color: rgb(71, 71, 72);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: rgb(169, 169, 169);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+
+    cursor: pointer;
+}
+
+.arrow:hover{
+    background-color: rgba(26, 27, 28, 0.425);
+}
+
+.arrow:active{
+    background-color: rgb(26, 27, 28);
+}
+
 .menu{
+
+    display: none;
+
     background-color: rgb(41, 44, 44);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.357);
     border-radius: 6px;
