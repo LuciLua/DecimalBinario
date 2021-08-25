@@ -31,6 +31,7 @@ main{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 .container{
@@ -112,18 +113,13 @@ main{
     width: 85%;
     height: 70px;
 
-
     border-bottom: 1px solid rgba(106, 106, 106, 0.501);
-    
 }
 
 .menu ul li:first-child
 {
     border-top: 1px solid rgba(106, 106, 106, 0.501);
-
 }
-
-
 
 .menu ul li:hover{
     background-color: rgb(28, 28, 28);
@@ -140,82 +136,9 @@ main{
     font-family: 'Fira Code', monospace;
     
     width: 900px;
-    max-width: 89.8%;
     margin-left: auto;
 }
 
-
-
-.foo{
-    display: flex;
-    position: relative;
-}
-
-.footer{
-    margin-left: 10px;
-    margin-right: 10px;
-
-    height: 40px;
-    width: 40px;
-    min-height: 40px;
-    min-width: 40px;
-    /* background-color: transparent; */
-
-    margin-top: 30px;
-    display: flex;
-    flex-direction: row;
-    /* align-items: center; */
-    justify-content: center;
-
-    border-radius: 60%;
-
-    position: relative;
-
-    transition: 0.1s;
-
-    box-shadow: none;
-    background-color: rgba(41, 41, 41, 0);
-}
-
-.footer a{
-    text-decoration: none;
-    color: rgba(240, 248, 255, 0);
-
-    margin: 0 30px 0 30px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-
-    font-size: 12px;
-    transition: 0.3s;
-}
-
-.footer:hover a img,
-.footer:hover{
-    color: rgba(240, 248, 255, 0.296);
-    transition: 0.3s;
-    opacity: 100%;
-
-    background-color: rgba(240, 248, 255, 0.07);
-    border-radius: 60%;
-}
-
-.footer a img{
-    transition: 0.3s;
-    opacity: 0%;
-    width: 40px;
-    min-width: 40px;
-    max-width: 40px;
-    height: 40px;
-    max-height: 40px;
-    min-height: 40px;
-
-    margin-bottom: 2px;
-}
 
 .container header{
     width: 100%;
